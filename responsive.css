@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1576px) {
+  /* MENU STARTS */
+  /* MENU FINISHED */
+
+  .bottom {
+    padding-top: 126px;
+  }
+  .bottom h1 {
+    font-size: 55px;
+  }
+}
