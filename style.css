@@ -41,6 +41,10 @@ li a {
   font-weight: 500;
 }
 
+.menu-content ul {
+  padding: 30px 80px;
+}
+
 .menu-content li a:hover {
   color: #21c4c2;
 }
@@ -115,13 +119,18 @@ a {
 /* MENU FINISHED */
 
 .content {
-  background-image: url("../images/bg.png");
-  background-size: contain;
-  background-repeat: no-repeat;
   width: 80%;
-  height: 2000px;
-  margin: auto;
   float: right;
+}
+
+.hero {
+  width: 100%;
+}
+
+.bg-img {
+  position: absolute;
+  width: 80%;
+  padding-top: 57px;
 }
 
 .content_services {
@@ -138,11 +147,13 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-top: -59px;
+  position: relative;
 }
 
 .logos {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .logos li a {
@@ -192,6 +203,7 @@ a {
   padding-top: 280px;
   padding-left: 45px;
   width: 90%;
+  position: relative;
 }
 
 .bottom h1 {
@@ -637,19 +649,25 @@ input[type="submit"]:hover {
 /*Assist Access*/
 
 .head {
-  background-image: url(..images/2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 100%;
   height: 300px;
 }
 
+.head-img {
+  width: 80%;
+  position: absolute;
+}
+
 .head-about {
-  background-image: url("../images/about.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 485px;
+}
+
+.head-about img {
+  width: 80%;
+  position: absolute;
 }
 
 .head-about h3 {
@@ -658,9 +676,9 @@ input[type="submit"]:hover {
   font-weight: bold;
   color: aliceblue;
   text-shadow: 1px 2px #535353;
-  bottom: 0px;
-  padding-top: 357px;
   padding-left: 61px;
+  position: relative;
+  padding-top: 334px;
 }
 
 .division {
@@ -704,7 +722,7 @@ input[type="submit"]:hover {
 
 .division-left {
   width: 55%;
-  padding: 72px;
+  padding: 137px 82px;
 }
 
 .division-left h3 {
@@ -742,6 +760,7 @@ input[type="submit"]:hover {
 
 .menu-right {
   width: 100%;
+  padding-top: 57px;
 }
 
 .menu-right .tittle {

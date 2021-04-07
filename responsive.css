@@ -8,4 +8,39 @@
   .bottom h1 {
     font-size: 55px;
   }
+
+  ul {
+    padding: 30px 51px;
+  }
+
+  .logo {
+    padding: 36px;
+  }
+
+  .menu-content {
+    margin-bottom: 30px;
+    margin-top: -10px;
+  }
+
+  .row a {
+    height: 295px;
+  }
+
+  .form {
+    width: 81%;
+  }
+
+  .division-left {
+    padding: 72px 82px;
+    width: 51%;
+  }
+
+  .division-right {
+    width: 43%;
+  }
+
+  .menu-right {
+    padding-top: 1px;
+    width: 104%;
+  }
 }
