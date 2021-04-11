@@ -10,7 +10,7 @@
   }
 
   ul {
-    padding: 30px 51px;
+    padding: 30px 19px;
   }
 
   .logo {
@@ -27,7 +27,7 @@
   }
 
   .form {
-    width: 81%;
+    width: 90%;
   }
 
   .division-left {
@@ -58,5 +58,293 @@
 
   .gov-images-a {
     width: 74px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* MENU*/
+
+  .content {
+    width: 100%;
+  }
+
+  .bg-img {
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .contact-content {
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    background-color: #13465c;
+  }
+
+  .phone-content {
+    display: none;
+  }
+
+  .logo-respo {
+    display: block;
+  }
+
+  .logo-respo img {
+    width: 102px;
+    margin-left: 26px;
+  }
+
+  .bg-img {
+    display: none;
+  }
+
+  .bg-img-respo {
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding-top: 57px;
+  }
+
+  .bottom {
+    padding-top: 281px;
+  }
+
+  .bottom h1 {
+    font-size: 42px;
+  }
+
+  .icon-services {
+    display: none;
+  }
+
+  .services {
+    margin-top: 109px;
+    height: 3882px;
+  }
+
+  .row {
+    display: inline-block;
+    justify-content: center;
+  }
+
+  /*contact us  */
+
+  .form {
+    display: block;
+    height: 758px;
+  }
+
+  .left {
+    width: 243px;
+    height: 262px;
+    background: #ffffff;
+    margin: 20px;
+    float: left;
+  }
+
+  .left h3 {
+    color: #13465c;
+    text-align: left;
+    padding-top: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    padding-left: 22px;
+  }
+
+  .left p {
+    color: #13465c;
+    padding-left: 15px;
+  }
+
+  .green-phone {
+    padding-left: 0px;
+  }
+
+  .green-phone h4 {
+    color: #3cbfbf;
+    font-size: 18px;
+  }
+
+  .mail {
+    padding-left: 0px;
+  }
+
+  .mail h4 {
+    color: #3cbfbf;
+    font-size: 17px;
+  }
+
+  .contact-us {
+    height: 1093px;
+  }
+
+  .right {
+    width: 84%;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  /*contact us end */
+
+  /*location */
+
+  .locations {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .left-locations li {
+    margin-left: 52px;
+    line-height: 27px;
+  }
+
+  .right-locations img {
+    width: 97%;
+  }
+
+  .links {
+    width: 100%;
+  }
+
+  /*location end */
+
+  /*footer*/
+
+  .footer {
+    display: block;
+    height: 740px;
+  }
+
+  .row-footer-text {
+    width: 79%;
+    margin: 67px 42px;
+  }
+
+  .row-footer {
+    margin: 0px 51px;
+  }
+
+  .row-footer a {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .mail-contact {
+    margin-top: 6px;
+    align-items: center;
+  }
+
+  .mail-contact h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  /*up*/
+  .up {
+    position: fixed;
+    right: 0%;
+    z-index: 0;
+    padding: 10px 30px;
+  }
+
+  /*bburger menu */
+
+  .burger {
+    color: white;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 21px;
+    padding-right: 10px;
+    display: block;
+    padding-right: 40px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .sociale {
+    position: absolute;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    overflow-x: hidden;
+    height: 0;
+    z-index: 999;
+    position: fixed;
+    background: #13465c;
+    transition: 0.3s;
+    cursor: pointer;
+    display: block;
+  }
+
+  .sociale li {
+    float: none;
+  }
+
+  .sociale li a {
+    font-size: 23px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menus {
+    display: block;
+  }
+
+  .sociale ul {
+    display: block;
+    padding-top: 154px;
+  }
+
+  .sociale a {
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .sociale a img {
+    width: 23px;
+  }
+
+  .close {
+    float: right;
+    padding: 20px 54px;
+    cursor: pointer;
+  }
+
+  /*about starts*/
+
+  .content_services {
+    width: 100%;
+  }
+
+  .no-index {
+    display: flex;
+    z-index: 9;
+  }
+
+  .head-about img {
+    width: 100%;
+    margin-top: -57px;
+  }
+
+  .head-about h3 {
+    font-size: 59px;
+    padding-top: 301px;
+  }
+
+  .division-about {
+    width: 100%;
+    padding-top: 58px;
+  }
+
+  .division-about p {
+    font-size: 17px;
   }
 }

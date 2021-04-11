@@ -14,6 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.container {
+  width: 100%;
+}
+
 .menu {
   background-color: #13465c;
   width: 20%;
@@ -28,6 +32,14 @@ html {
   padding: 60px;
 }
 
+.burger {
+  display: none;
+}
+
+.sociale {
+  display: none;
+}
+
 ul {
   padding: 30px 80px;
   margin: 40px;
@@ -39,6 +51,10 @@ li a {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 500;
+}
+
+.logo-respo {
+  display: none;
 }
 
 .menu-content ul {
@@ -133,6 +149,10 @@ a {
   padding-top: 57px;
 }
 
+.bg-img-respo {
+  display: none;
+}
+
 .content_services {
   background-size: contain;
   background-repeat: no-repeat;
@@ -148,6 +168,10 @@ a {
   align-items: center;
   margin-top: -59px;
   position: relative;
+}
+
+.no-index {
+  display: none;
 }
 
 .logos {
@@ -279,6 +303,13 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 21px;
   padding-bottom: 20px;
+}
+
+.up {
+  position: fixed;
+  right: 0%;
+  z-index: 0;
+  padding: 90px 30px;
 }
 
 .services {
@@ -561,7 +592,7 @@ input[type="submit"]:hover {
 
 .row-footer {
   width: 100px;
-  margin: 90px;
+  margin: 90px 51px;
   float: left;
 }
 
@@ -575,7 +606,7 @@ input[type="submit"]:hover {
 }
 
 .row-footer-text {
-  width: 400px;
+  width: 300px;
   margin: 90px;
   float: left;
 }
@@ -717,7 +748,7 @@ input[type="submit"]:hover {
 
 .division-about {
   width: 90%;
-  padding: 72px;
+  padding-top: 210px;
 }
 
 .division-left {
@@ -788,4 +819,10 @@ input[type="submit"]:hover {
   color: #484848;
   font-size: 16px;
   padding-left: 36px;
+}
+
+.close {
+  float: right;
+  padding: 60px;
+  cursor: pointer;
 }
