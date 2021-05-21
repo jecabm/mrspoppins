@@ -2,15 +2,20 @@
   /* MENU STARTS */
   /* MENU FINISHED */
 
+  .phone-content {
+    margin-left: 10px;
+  }
+
   .bottom {
     padding-top: 126px;
+    padding-left: 43px;
   }
   .bottom h1 {
     font-size: 55px;
   }
 
   ul {
-    padding: 30px 19px;
+    padding: 30 0px;
   }
 
   .logo {
@@ -20,13 +25,12 @@
   .menu-content {
     margin-bottom: 30px;
     margin-top: -10px;
+    padding: 30px 50px;
   }
 
-  .row{
-    display: grid;
-    grid-template-columns: 358px  ;
-    
-  
+  .row {
+    display: flex;
+    grid-template-columns: 358px;
   }
 
   .form {
@@ -39,12 +43,8 @@
   }
 
   .division-right {
-    width: 0%;
-  }
-
-  .menu-right {
-    
-    display: none;
+    width: 47%;
+    margin-top: -62px;
   }
 
   .icon-services {
@@ -61,6 +61,42 @@
 
   .gov-images-a {
     width: 74px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .division {
+    display: block;
+    width: 52%;
+    height: 1539px;
+  }
+
+  .division-left {
+    padding: 72px 82px;
+    width: 100%;
+  }
+
+  .division-right {
+    width: 80%;
+    margin-top: -137px;
+  }
+
+  .left-locations li {
+    line-height: 26px;
+    margin-left: 0px;
+  }
+
+  .menu {
+    width: 23%;
+    height: 100%;
+  }
+
+  .content_services {
+    width: 76%;
+  }
+
+  .head-img {
+    width: 80%;
   }
 }
 
@@ -84,6 +120,8 @@
     margin: auto;
     height: 70px;
     background-color: #13465c;
+    position: fixed;
+    z-index: 9;
   }
 
   .phone-content {
@@ -107,7 +145,6 @@
     display: block;
     position: absolute;
     width: 100%;
-    
   }
 
   .bottom {
@@ -124,8 +161,8 @@
 
   .services {
     margin: 109px auto;
-height: 4220px;
-width: 97%;
+    height: 4220px;
+    width: 97%;
   }
 
   .ser {
@@ -133,9 +170,6 @@ width: 97%;
     height: 200px;
     margin: auto;
   }
-
-
-
 
   /*contact us  */
 
@@ -206,8 +240,9 @@ width: 97%;
   }
 
   .left-locations li {
-    margin-left: 52px;
+    margin-left: 23px;
     line-height: 27px;
+    width: 100%;
   }
 
   .right-locations img {
@@ -268,7 +303,7 @@ width: 97%;
     font-size: 21px;
     padding-right: 10px;
     display: block;
-    padding-right: 40px;
+    padding-right: 25px;
   }
 
   .hide {
@@ -309,15 +344,20 @@ width: 97%;
   .sociale ul {
     display: block;
     padding-top: 154px;
+    padding: 79px 79px;
   }
 
   .sociale a {
-    padding: 10px;
+    padding: 0px;
     text-decoration: none;
   }
 
   .sociale a img {
     width: 23px;
+  }
+
+  .sociale li {
+    padding: 16px 1px;
   }
 
   .close {
@@ -349,53 +389,96 @@ width: 97%;
 
   .division-about {
     width: 100%;
-    padding-top: 58px;
+    padding: 11px 24px;
   }
 
   .division-about p {
     font-size: 17px;
   }
 
- 
+  .division-about ul {
+    margin: -18px;
+  }
+
+  .division-left ul {
+    margin: -64px;
+  }
 }
 
 @media only screen and (max-width: 441px) {
+  .row {
+    display: grid;
+  }
 
-
-  .services{
+  .services {
     margin: 133px auto;
     height: 4012px;
   }
 
- .green-phone-contact img{
+  .green-phone-contact img {
+    display: none;
+  }
 
-  display: none;
- }
+  .mail-contact img {
+    display: none;
+  }
 
- .mail-contact img{
-   display: none;
- }
+  .head-img {
+    display: none;
+  }
 
- .head-img{
-   display: none;
- }
+  .division-left h3 {
+    margin-top: 56px;
+  }
 
- .division-left h3{
-  margin-top: 56px;
- }
- 
+  .division-left {
+    padding: 72px 58px;
+    width: 100%;
+  }
 
+  .contact-us {
+    margin-top: 0px;
+  }
 
- .division-left{
+  .logos {
+    display: none;
+  }
 
-  padding: 72px 58px;
-  width: 100%;
-  
- }
+  .logos-burger {
+    position: relative;
+    margin: 0px;
+    display: flex;
+  }
 
- .contact-us{
-   margin-top: 0px;
- }
+  .contact-content ul {
+    padding: 51px 4px;
+  }
 
- 
+  .left-locations {
+    width: 97%;
+  }
+
+  .division-left p {
+    margin-bottom: 37px;
+  }
+
+  .division-left {
+    padding: 72px 0px;
+    width: 100%;
+    margin-left: 76px;
+  }
+
+  .division-left ul {
+    margin: -53px -94px;
+  }
+
+  .menu-right {
+    width: 100%;
+    padding-top: 57px;
+    margin: -14px -83px;
+  }
+
+  .division-right {
+    display: none;
+  }
 }
